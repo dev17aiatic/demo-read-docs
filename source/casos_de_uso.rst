@@ -1,6 +1,20 @@
 
-Casos de uso
+Funcionalidades
 =============
+
+
+Arquitectura de la aplicación
+############################
+
+
+.. image :: ../images/arquitectura.jpg
+   :width: 700px
+   :align: center
+   :height: 450px
+
+
+""""""""""""""""""""""""""""
+
 
 Diagramas casos de uso
 ######################
@@ -58,15 +72,6 @@ Diagrama de caso de uso para los registros
 
 """""""""""""""""""""""""
 
-
-Arquitectura de la aplicación
-############################
-
-
-.. image :: ../images/arquitectura.jpg
-   :width: 700px
-   :align: center
-   :height: 450px
 
 
 
