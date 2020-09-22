@@ -2,20 +2,20 @@ Manual de usuario
 ===================
 
 
-Principales requisitos para la pagina web 
+Principales requisitos para la página web 
 ----------------------------------------
 
 - Acceso a internet
 
 - Navegador que soporte HTML5
 
-- Habilitación y aceptación de uso de cookies para la pagina web
+- Habilitación y aceptación de uso de cookies para la página web
 
 
-Caracteristicas de la pagina web
+Características de la página web
 ---------------------------------
 
-* La pagina se encuentra desarrollada en Angular10, lenguaje TypeScript
+* La página se encuentra desarrollada en Angular10, lenguaje TypeScript
 
 * Estilos usados con SCSS
 
@@ -36,18 +36,18 @@ Barra de navegación para aplicación web
 
 
 .. image :: ../images/navbarmovil.JPG
-Barra de navegación para aplicacion movil
+Barra de navegación para aplicación móvil
 
-        En la barra de navegación se encuentra un diseño responsivo, de colores en gradiente de anaranjado a blanco. Para aplicación web se encuentra el logo del equipo en la esquina  superior izquierda la cual permite activar el menu de navegación y en el centro un menú con las pestañas de información a cerca de la pagina web. 
-        Para aplicación movil el logo se encuentra centrado y se añade un "botón menu" en la parte superior izquierda, que permite acceder al menu de navegación y un 'botón menu" en la parte superior derecha que permite acceder al menu de información a cerca de la pagina web.
+        En la barra de navegación se encuentra un diseño responsivo, de colores en gradiente de anaranjado a blanco. Para aplicación web se encuentra el logo del equipo en la esquina  superior izquierda la cual permite activar el menú de navegación y en el centro un menú con las pestañas de información a cerca de la página web. 
+        Para aplicación móvil el logo se encuentra centrado y se añade un "botón menú" en la parte superior izquierda, que permite acceder al menú de navegación y un "botón menú" en la parte superior derecha que permite acceder al menú de información a cerca de la página web.
 
-2. Menu de navegación lateral
+2. Menú de navegación lateral
 ''''''''''''''''''''
 
 .. image :: ../images/menu.JPG
-Menu de navegación lateral
+Menú de navegación lateral
 
-        El menu de navegacion permite de una manera practica ver y acceder a las funcionalidades de la pagina, en ella encontramos el logo del equipo que permite desplazarnos a la pagina principal, los items de  registro, iniciar sesión y video para el caso de no haber iniciado sesión, y cuando se ha iniciado sesión se muestran los items de registros, perfil, video y salir
+        El menú de navegación permite de una manera practica ver y acceder a las funcionalidades de la página, en ella encontramos el logo del equipo que permite desplazarnos a la página principal, los ítems de  registro, iniciar sesión y video para el caso de no haber iniciado sesión, y cuando se ha iniciado sesión se muestran los ítems de registros, perfil, video y salir
 
 #. Registros
 #. Perfil
@@ -55,26 +55,26 @@ Menu de navegación lateral
 #. Salir
 
 
-3. Menu de información
+3. Menú de información
 ''''''''''''''''''''''
 
 .. image :: ../images/menuinfo.JPG
-Menu de información para aplicación web
+Menú de información para aplicación web
 
 .. image :: ../images/menuinfomovil.JPG
-Manu de información para aplicación movil
+Menú de información para aplicación móvil
 
-        El menú de información permite con su item "Inicio" dirigirse a la pagina primcipal de la aplicación, con su segundo itemd "Equipo" acceder a una breve biografia a cerca de los desarrolladores y con su tercer item redirige a la pagina de contacto, que pondra en contacto directo con los desarrolladores, de alguna queja, reclamo, sugerencia o felicitación que se desee enviar al correo ceo@aiatic.com.
+        El menú de información permite con su ítem "Inicio" dirigirse a la página principal de la aplicación, con su segundo ítem "Equipo" acceder a una breve biografía a cerca de los desarrolladores y con su tercer ítem redirige a la página de contacto, que pondrá en contacto directo con los desarrolladores, de alguna queja, reclamo, sugerencia o felicitación que se desee enviar al correo ceo@aiatic.com.
 
 
-4. Conocer la pagina principal
+4. Conocer la página principal
 '''''''''''''''''''''''''''''''
 
 .. image :: ../images/home.JPG
-Pagina principal
+Página principal
 
 
-        La pagina principal presenta el logo del equipo Marvel, centrado, debajo de este se encuentran las fotos, nombres y cargos de los desarrolladores, debajo se encuentra el logo de la universidad donde estan realizando sus estudios, como realización de este proyecto para las Practicas 2020.
+        La página principal presenta el logo del equipo Marvel, centrado, debajo de este se encuentran las fotos, nombres y cargos de los desarrolladores, debajo se encuentra el logo de la universidad donde están realizando sus estudios, como realización de este proyecto para las prácticas 2020.
 
 
 
@@ -82,10 +82,10 @@ Pagina principal
 '''''''''''''
 
 .. image :: ../images/equipo.JPG
-Pagina de equipo
+Página de equipo
 
 
-        La pagina de equipo muestra en tarjetas las fotos de los desarrolladores, junto con una breve autobiografia y descripción de ellos
+        La página de equipo muestra en tarjetas las fotos de los desarrolladores, junto con una breve autobiografía y descripción de ellos
 
 
 
@@ -93,65 +93,65 @@ Pagina de equipo
 '''''''''''
 
 .. image :: ../images/contacto.JPG
-Pagina de contacto
+Página de contacto
 
-        La pagina de contacto permite contactar al equipo de desarrollo, cuenta con un diseño de un formulario en la primera mitad de la pantalla y una imagen de agradecimeinto por contactarnos al lado derecho, la imagen no esta disponible para la versión responsive, en el momento que se rellenen los campos con la información requerida se habilitara el boton "enviar", que permitira el envio directo de la información al correo ceo@aiatic.com.
+        La página de contacto permite contactar al equipo de desarrollo, cuenta con un diseño de un formulario en la primera mitad de la pantalla y una imagen de agradecimiento por contactarnos al lado derecho, la imagen no está disponible para la versión responsive, en el momento que se rellenen los campos con la información requerida se habilitará el botón "enviar", que permitirá el envió directo de la información al correo ceo@aiatic.com.
    
 
 7. Realizar el registro
 ''''''''''''''''''''''''
 
 .. image :: ../images/registro.JPG
-Pagina de Registro
+Página de Registro
 
-        Para iniciar el proceso de registro, podemos acceder desde el menu de navegación, dando click al iteme Registro, se deben proporcionar los datos en los campos requeridos, se permite maximo un registro por cedula de ciudadania y correo electronico, una vez se haya finalizado de rellenar todos los campos, se habilitara el boton de registrarse, al dar clic sobre  este, se notificara si el registro fue exitoso o si ha ocurrido algun error.
+        Para iniciar el proceso de registro, podemos acceder desde el menú de navegación, dando clic al ítem Registro, se deben proporcionar los datos en los campos requeridos, se permite máximo un registro por cédula de ciudadanía y correo electrónico. Una vez se haya finalizado de rellenar todos los campos, se habilitará el botón de registrarse, al dar clic sobre  este, se notificara si el registro fue exitoso o si ha ocurrido algún error.
 
 
 8. Iniciar sesión
 '''''''''''''''''
 
 .. image :: ../images/loginweb.JPG 
-Pagina web de inicio de sesión
+Página web de inicio de sesión
 
 .. image :: ../images/loginmovil.JPG
-Pagina movil de inicio de sesión
+Página móvil de inicio de sesión
 
-        Una vez realizado un registro exitoso, se puede iniciar sesión en la aplicación, en el menu, dando click al item iniciar sesión, donde es necesario proporcionar el correo y dar clic en el botón "INICIAR SESIÓN", posteriormente se enviara un link al correo electronico suministrado que permitira acceso a las otras funciones de la pagina.
+        Una vez realizado un registro exitoso, se puede iniciar sesión en la aplicación, en el menú, dando clic al ítem iniciar sesión, donde es necesario proporcionar el correo y dar clic en el botón "INICIAR SESIÓN", posteriormente se enviara un link al correo electrónico suministrado que permitirá acceso a las otras funciones de la página.
 
 
 9. Video
 ''''''''
 
 .. image :: ../images/videoweb.JPG
-Pagina web de  video
+Página web de  video
 
-        En esta pagina encontraras un video de YouTube, este video puede variar cada cierto tiempo y serán de musica que le agrada a los desarrolladores
+        En esta página se encuentra un video de YouTube, este video puede variar cada cierto tiempo y serán de música que le agrada a los desarrolladores
 
 
 10. Registros
 ''''''''''''
 .. image :: ../images/registros.JPG
-Pagina web de registros
+Página web de registros
 
 
-        Para acceder a esta pagina, es necesario haber iniciado sesión, se encuentra información a cerca de todos los usuarios registrados en la base de datos. 
-        Los datos se muestran en una tabla, los titulos de cada columna describen el dato a mostrar y cada fila detalla la información asociada de cada usuario
+        Para acceder a esta página, es necesario haber iniciado sesión, se encuentra información a cerca de todos los usuarios registrados en la base de datos. 
+        Los datos se muestran en una tabla, los títulos de cada columna describen el dato a mostrar y cada fila detalla la información asociada de cada usuario
 
 11. Mi perfil
 ''''''''''''
 
 .. image :: ../images/perfilweb.JPG
-Pagina web de perfil
+Página web de perfil
 
 
-        Para acceder a esta pagina es necesario haber iniciado sesión, se encuentra la informacion del usuario actual, adicional a esto se encuentra una foto de perfil por defecto si es la primera vez que se inicia sesión. En la parte inferior se encuentra un boton de editar, el cual te permitira editar todos los campos incluyendo la foto de perfil, como se muestra a continuación:
+        Para acceder a esta página es necesario haber iniciado sesión, se encuentra la información del usuario actual, adicional a esto se encuentra una foto de perfil por defecto si es la primera vez que se inicia sesión. En la parte inferior se encuentra un botón de editar, el cual te permitirá editar todos los campos incluyendo la foto de perfil, como se muestra a continuación:
 
 .. image :: ../images/editarweb.JPG
-Pagina web de editar perfil
+página web de editar perfil
 
-        Al dar click en "CAMBIAR IMAGEN" se abrira un explorador de archivos, donde permite seleccionar la foto por la que se desea cambiar, (se permiten fotos de maximo 1MB), si el archivo es exitoso el recuadro de la foto tomara un "check" verde (la nueva foto la podras ver en el momento de guardar los cambios), tambien se permite actualizar otros datos a excepción del correo electronico, una vez finalizado esto en la parte inferior se habilitara un boton de guardar cambios o estara el boton de descartar cambios (tambien se pueden descartar los cambios cerran el dialogo dando click afuera o con la tecla salir) 
+        Al dar clic en "CAMBIAR IMAGEN" se abrirá un explorador de archivos, donde permite seleccionar la foto por la que se desea cambiar, (se permiten fotos de máximo 1MB), si el archivo es exitoso el recuadro de la foto tomara un "check" verde (la nueva foto la podras ver en el momento de guardar los cambios), también se permite actualizar otros datos a excepción del correo electrónico, una vez finalizado esto en la parte inferior se habilitará un botón de guardar cambios o estará el botón de descartar cambios (también se pueden descartar los cambios cierran el diálogo dando clic afuera o con la tecla salir) 
 
 12. Salir
 ''''''''
 
-        Este item del menu de navegación solo esta disponible al haber iniciado sesión, al dar click permite cerrar la sesión actual de la aplicación
+        Este ítem del menú de navegación solo está disponible al haber iniciado sesión, al dar clic permite cerrar la sesión actual de la aplicación

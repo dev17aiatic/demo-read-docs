@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 
-Documentacion de marvel-project 
+Documentación de marvel-project 
 ============================================
 """"""""""""""""""""""""""""""""""""""""
 
@@ -12,7 +12,8 @@ Documentacion de marvel-project
 Equipo Marvel-AIATIC 2020
 ===========================
 
-Este es el primer proyecto en grupo desarrollado para las practicas en AIATIC, el esquipo fue nombrado como "equipo Marvel" y desarrollado por los practicantes de la UNAB **Carlos Francisco Gonzalez Mantilla** y **Yeison Alexander Rey Sepulveda**
+Este es el primer proyecto en grupo desarrollado para las prácticas en AIATIC, el equipo fue nombrado como "equipo Marvel" y desarrollado 
+por los practicantes de la UNAB **Carlos Francisco González Mantilla** y **Yeison Alexander Rey Sepúlveda**
 
 
 

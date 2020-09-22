@@ -11,7 +11,7 @@ Requerimientos de desarrollo:
 i)Primer Requerimiento(Formulario/Registro):
 --------------------------------------------
 
-a.)Se debe validar que no hayan campos vacios.
+a.)Se debe validar que no haya campos vacíos.
 b.)Validar que C.C. & Código Postal solo sean números.
 c.)Fecha de nacimiento con el selector de calendario.
 d.)Crear 10 habilidades con un check, se permita un máximo de 3 habilidades por usuario.
@@ -24,16 +24,16 @@ ii)Segundo Requerimiento(Registro & Home/sidebar):
 
 a.)Validar dato de cédula & e-mail no existan en la base de datos, si existe, avisar inmediatamente al usuario.
 b.)Añadir web service para los municipios y departamentos de Colombia.
-c.)Al ser exitoso el registro, debe salir un modal dando la gracias por el registro.
-d.)Menu lateral a la izquierda. con los 4 módulos: Registro, Inicio de Sesion, Registros, Mi Perfil, Video & Salir
+c.)Al ser exitoso el registro, debe salir un modal dando las gracias por el registro.
+d.)Menú lateral a la izquierda con los 4 módulos: Registro, Inicio de Sesión, Registros, Mi Perfil, Video & Salir
 e.)Registros: Crear tabla que liste por columnas todos los registro que haya en la base de datos.
 
 
 iii)Tercer Requerimiento(Restricciones):
 ----------------------------------------
 
-a)Sector público: Home, Resgistro, Inicio de Sesion & Video.
-b)Sectro privado: Todoas las secciones habilitadas del ejercicio.
+a)Sector público: Home, Registro, Inicio de Sesión & Video.
+b)Sector privado: Todas las secciones habilitadas del ejercicio.
 
 
 iv)Cuarto Requerimiento(Mi Perfil):
@@ -47,4 +47,4 @@ v)Quinto Requerimiento(Menú y Contacto):
 -----------------------
 
 a.)Añadir al header un menú en el medio con los componentes de Inicio, Equipo y Contacto.
-b.)crear formulario para contacto. en el formulario, validar que sea un correo, se debe almacenar el formulario enviado en la Base de datos, y enviar la información de ese contacto por correo electrónico a CEO@AIATIC.COM
+b.)crear formulario para contacto. En el formulario, validar que sea un correo, se debe almacenar el formulario enviado en la Base de datos, y enviar la información de ese contacto por correo electrónico a CEO@AIATIC.COM

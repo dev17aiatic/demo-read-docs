@@ -15,7 +15,7 @@ Para el formulario y campos del formulario.
 
 b.)Borde gris:
 """""""""""""""
-Para cada item de formulario.
+Para cada ítem de formulario.
 
 c.)Alertar campos:
 """""""""""""""""""
@@ -66,24 +66,24 @@ iii)Tercer Requerimiento:
 
 Añadir todo estos componentes y módulos al dashboard: En el home foto de los developers y sus datos.
 Menú lateral a la izquierda con los componentes ya especificados.
-restricciones de acceso público y privado. debe ser responsivo.
+Restricciones de acceso público y privado. Debe ser responsivo.
 
 
 iv)Cuarto Requerimiento:
 -------------------------
 
-En esta sección se espécifica todo el estilizado de Mi Perfil. el cual se podrá editar,
+En esta sección se específica todo el estilizado de Mi Perfil. El cual se podrá editar,
 guardar & poner/cambiar una foto de menos de 1Mb Y en un contenedor de 300px con borde circular. Creación de Wireframe y MockUps.
 
 
 v)Quinto Requerimiento:
 ------------------------
 
-Crear un header y un footer. el header llevará el logo en la parte superior izquierda. en el medio un menú que tenga los siguientes items:
+Crear un header y un footer. el header llevará el logo en la parte superior izquierda. En el medio un menú que tenga los siguientes ítems:
 Inicio, Equipo & Contacto.
-El footer tendrá en elmedio una frase de Copyright.
+El footer tendrá en el medio una frase de Copyright.
 
-El inicio se mantendra como se ha especificado.
+El inicio se mantendrá como se ha especificado.
 En la sección de equipo cada miembro debe escribir una pequeña bio.
 El texto de la bio debe situarse al lado derecho de la foto.
 En contacto se creará un formulario:
