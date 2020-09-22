@@ -49,6 +49,11 @@ v)Quinto Requerimiento(Menú y Contacto):
 a.)Añadir al header un menú en el medio con los componentes de Inicio, Equipo y Contacto.
 b.)crear formulario para contacto. En el formulario, validar que sea un correo, se debe almacenar el formulario enviado en la Base de datos, y enviar la información de ese contacto por correo electrónico a CEO@AIATIC.COM
 
+
+Estructura del proyecto
+-------------------------
+
+
 En esta pequeña sección, se encuentra un listado con cada uno de los componentes que posee la aplicación.
 
 .. toctree::
