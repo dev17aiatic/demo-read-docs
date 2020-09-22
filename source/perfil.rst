@@ -1,12 +1,14 @@
 MODULO PERFIL
 ==============
 
+
 En el módulo de perfil se encuentra la plantilla, los métodos y demás componentes que permitirán al usuario entrar a una sección de nuestro home llamada Mi Perfil en el cual, encontraremos una foto del usuario loggeado & la información del usuario que se encuentra loggeado en ese instante, al fodo de este formulario, encontramos un botón de editar que desplegará un gran modal con los campos de nuestro formulario abiertos para poder ser modificados por el usuario, esto incluye la funcionalidad de poder actualizar la foto y demás datos que el usuario considere pertinentes de modificar.
 
 El diseño del html para este componente está diseñada y construida bajo el siguiente bloque de código.
 
 
-.. code-block::
+
+::
 
    <div class="container">
      <form [formGroup]="perfilForm" class="formxD">
@@ -269,7 +271,9 @@ Se observa la agregación a nuestro formulario ya conocido en nuestro modulos de
 
 Los estilos de nuestro inicio de sesión está definido por la siguientes reglas encontradas en nuestro scss.
 
-.. code-block::
+
+
+::
 
      .foto{
           position: absolute;
@@ -494,11 +498,13 @@ Los estilos de nuestro inicio de sesión está definido por la siguientes reglas
       }
       }
 
+
+
 Dentro de nuestro scss definimos la posición de nuestros items, su color, sus magenes, la posición de la imagen, las reglas de responsividad & los colores de principales de la página, también se remueven las flechas que aparecían en algunos campos que servían para aumentar una cantidad numérica.
 
 
 
-.. code-block::
+::
 
       import { Component, OnInit } from '@angular/core';
       import {MatDialog} from '@angular/material/dialog';
@@ -588,6 +594,7 @@ Dentro de nuestro scss definimos la posición de nuestros items, su color, sus m
         }
 
       }
+
 
 
 En nuestra parte lógica, podemos observar cómo hacemos la creación de nuestro formulario con cada uno de sus respectivos items, para poder mostrar los datos del usuario loggeado y traido desde nuestro storage en su correspondiente espacio. también observamos que al monmento de dar click en nuestro botón de editar, se reutiliza nuestro método onRegister() para abrir nuestro componente modal que contendrá toda nuestra parte lógica y front end del resto de la funcionalidad de MiPerfil

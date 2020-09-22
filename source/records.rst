@@ -1,9 +1,11 @@
-COMPONENTE RECORDS
+MÓDULO REGISTROS
 ==================
 
-Nuestro componente de records está construido para recorrer todos los objetos que se encuentren dentro de nuestra base de datos para después listarlos en una gran tabla reponsiva.
 
-.. code-block::
+Nuestro componente de registros está construido para recorrer todos los objetos que se encuentren dentro de nuestra base de datos para después listarlos en una gran tabla reponsiva.
+
+
+::
 
  
 
@@ -45,9 +47,14 @@ Nuestro componente de records está construido para recorrer todos los objetos q
       </table>
       </div>
 
-Los estilos de nuestro componente esta definidos por las siguientes reglas de scss.
 
-.. code-block::
+
+Los estilos de nuestro componente esta definidos por 
+las siguientes reglas de scss.
+
+
+
+::
 
       table, th, td {
         border: 1px solid gray;
@@ -95,9 +102,12 @@ Los estilos de nuestro componente esta definidos por las siguientes reglas de sc
       }
 
 
+
 Una vez definida todas nuestras reglas de responsividad y estilo. vamos a nuestra parte lógica en donde traemos y listamos a todos los usuarios.
 
-.. code-block::
+
+
+::
 
       export class RecordsComponent implements OnInit {
 
@@ -113,6 +123,8 @@ Una vez definida todas nuestras reglas de responsividad y estilo. vamos a nuestr
           });
           
         }
+
+
 
 Podemos observar la creación de un objeto de tipo Usuario definido como un array de datos, en nuestro ngOnInit, hacer la llamada de nuestros datos gracias al servicio de la base de datos, del cuál sale nuestro método obtener usuarios.
 

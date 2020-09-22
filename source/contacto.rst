@@ -1,4 +1,4 @@
-Módulo de Contacto
+MÓDULO DE CONTACTO
 ==================
 
 
@@ -10,7 +10,9 @@ La estructura del Modulo es la siguiente:
 Dentro de estos archivos, el routing module & contacto.spec.ts no son modificados y son generados automáticamente por el Angular CLI.
 La estructura HMTL del formulario y la página de contacto es la siguiente
 
-.. code-block::
+
+
+::
    
    <div class="container">
    <div class="column">
@@ -125,11 +127,13 @@ La estructura HMTL del formulario y la página de contacto es la siguiente
      </div>
 
 
+
 Como se puede observar en el código HTML, hacemos la creación de la tabla, con sus respectivos Inputs, su dropdown y la sección de mensaje, junto con las condicionales requeridas para el funcionamiento del correo; y por último el botón de enviar que estará inhabilitado a menos de que todos los campos estén debidamente diligenciados.
 
 A continuación se van a diligenciar todas las reglas de css que le dan estilo a nuestro fomulario:
 
-.. code-block::
+
+::
    
    .column {
      position: relative;
@@ -204,12 +208,16 @@ A continuación se van a diligenciar todas las reglas de css que le dan estilo a
       position: relative;
       margin-top: 100px;  }}
 
+
+
 Se definen todas las reglas para nuestro formulario tanto en versión web como en versión responsiva.
 Pasaremos a explicar de manera breve cada uno de las partes que componen el Contacto.Component.ts, este archivo contiene todas importaciones necesarias para crear el formulario y poder trabajar con el Modelo de Contacto, enviar el formulario a la base de datos y usar la Api de Elasticemail para enviar el correo al CEO cada vez que alguien quiera hacer un contacto para discutir sobre nuestros servicios y oportunidades en Marvel Project.
 
 A la par de esto, en nuestro Contacto.Module.ts, hacemos una importanción de todos las librerias y clases que usaremos para trabajar de manera efectiva en contacto.
 
-.. code-block::
+
+
+::
 
    import { Component, OnInit } from '@angular/core';
    import { RequiredValidator, Validators } from '@angular/forms';
@@ -282,10 +290,13 @@ A la par de esto, en nuestro Contacto.Module.ts, hacemos una importanción de to
   }
 
 
+
 Lo primero que se observa, es que hacemos una breves importaciones de librerias y modelos que necesitamos para poder trabajar esta sección de Contacto.
 Seguido, iniciamos un nuevo formulario, el cuál recibirá los cuatro datos requeridos.
 
-.. code-block::
+
+
+::
    
    export class ContactoComponent implements OnInit {
    contactanosForm= new FormGroup({
@@ -296,10 +307,14 @@ Seguido, iniciamos un nuevo formulario, el cuál recibirá los cuatro datos requ
   },);
     motivos=['Contratos', 'Proyectos', 'Cobranzas'];
 
+
+
 Hecho esta sección, nuestro formulario ya está listo para poder ser procesado por otros métodos para su envío & cumpliendo con el requerimiento, se crea un array Motivo para que podamos crear el dropdown en nuestro html con las 3 opciones entregadas por el cliente.
 Seguido de esto, encontraremos nuestro constructor, el cual inicializará como privado, el servicio de DataBaseService, el cual es el servicio creado para poder manejar los métodos necesarios para procesar información.
 
-.. code-block::
+
+
+::
    
      guardar(){
       const {nombre, email, motivo, mensaje} = this.contactanosForm.value;

@@ -1,9 +1,11 @@
 SERVICIO GUARD
 ================
 
+
 El servicio Guard ha sido creado con la función de restringir el acceso a los módulos de nuestro portal, la condición para poder acceder a dichos modulos es que se encuentre loggeado, de no ser así, al intentar ingresar a estos modulos, se le pedirá al usuario que por favor se loguee.
 
-.. code-block::
+
+::
 
        constructor(private authsvc: AuthService, private router: Router){}
 
@@ -19,4 +21,7 @@ El servicio Guard ha sido creado con la función de restringir el acceso a los m
             }
           }));
         }
+
+
+
 nuestro método CanActivate, buscará gracias a nuestro authservice, que nuestro usuario ingresado existe, sino existe, aparecerá su respectivo alert y será enviado a Login.

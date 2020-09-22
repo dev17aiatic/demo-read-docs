@@ -4,7 +4,7 @@ COMPONENTE FOOTER
 El componente de footer está creado con el fin de mostrarse al final de nuestra página web y este debe mostrarse en todas las páginas que componen el aplicativo.
 
 
-.. code-block::
+::
 
       <!-- Footer -->
       <footer>
@@ -15,9 +15,11 @@ El componente de footer está creado con el fin de mostrarse al final de nuestra
 
       </footer>
 
+
 reglas definidas en nuestro scss para el estilo de nuestro footer.
 
-.. code-block::
+
+::
  
       .footer {
         z-index: 1;

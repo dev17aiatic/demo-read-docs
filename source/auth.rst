@@ -1,9 +1,11 @@
 SERVICIO AUTH
 =============
 
+
 El servicio de auth está diseñado para realizar todas las confirmaciones y verificaciones de usuario. el Método Iniciando(email:string) que nos debe recibir un string de tipo email, nos monta las reglas en donde funcionará, en este caso en la URL de marvel-project. con un try catch, se crea toda la secuencia lógica de que una vez nuestro usuario de click en iniciar sesion, este correo ingresado sera verificado dentro de nuestra base de datos y una vez confirmado, se envía un e-mail al usuario para poder entrar a nuestro portal a través de este link seguro que se encontrará en su correo. una vez este se envíe aparece un alert indicando los pasos a seguir.
 
-.. code-block::
+
+::
 
       export class AuthService {
         public userData$ : Observable<firebase.User>;
@@ -83,5 +85,7 @@ El servicio de auth está diseñado para realizar todas las confirmaciones y ver
           }
         }
       }
+
+
 
 Con nuestro método, Login(), obtener al usuario desde la base de datos, para así confirmar que el e-mail ingresado, se compare con los demás e-mails que se han registrado hasta encontrar una coincidencia, sino lo hace aparece un alert indicando que este email no se encuentra registrado

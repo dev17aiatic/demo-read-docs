@@ -1,9 +1,10 @@
 COMPONENTE MODAL
 ==================
 
+
 Nuestro modal está compuesto por un gran formulario, dando continuación a nuestro módulo de Perfil. En nuestra plantilla html, definimos todo lo que irá dentro de nuestro modal y sobre todo, se encontrarán los campos habilitados para poder realizar los cambios que el usuario encuentre pertinentes sobre su perfil.
 
-.. code-block::
+::
 
 
       <mat-dialog-content class="dialog-content">
@@ -318,11 +319,14 @@ Nuestro modal está compuesto por un gran formulario, dando continuación a nues
 
       </mat-dialog-content>
 
+
+
 Podemos observar, cómo agregamos nuestra sección donde el usuario puede cambiar la foto de su perfil, a través de una que posea localmente y también observamos cada campo de nuestro formulario con sus respectivo botones, haciendo una agregación de un Botón de descartar cambios.
 
 Los estilos y reglas de diseño se definen dentro del scss, también se establecen las reglas de la responsividad del modal para que sea agradable e intuitivo a la hora de usarlo desde un mobile.
 
-.. code-block::
+
+::
 
       .cont1{
         display: inline-block;
@@ -534,9 +538,12 @@ Los estilos y reglas de diseño se definen dentro del scss, también se establec
       }
       }
 
+
+
 Pasamos a la parte lógica de nuestro modal, el cual es la siguiente. 
 
-.. code-block::
+
+::
         export interface Habilidad{
         nombre:string;
         checked:boolean;
@@ -931,5 +938,7 @@ Pasamos a la parte lógica de nuestro modal, el cual es la siguiente.
         }
 
       }
+
+
 
 Fácilmente se empieza con la incialización y creación de nuestro formulario con cada uno de los items que se posee, se crea un array de habilidades que nos permitirá elegir máximo 3. y unos chips que servirán para poder meter dentro de pequeñas etiquetas las profesiones en las cuales el usuario se puede desempeñar, trabajamos también en esta sección con la API de municipios para el autocompletado de este mismo. y por ultimo tenemos nuestros métodos más importantes que son OnRegister que guardará todos los cambios que realicemos a nuestro perfil y onCancel que cerrará el modal sin guardar cambios. existen otros métodos como ValidarCC el cual recorre con un foreach los usuarios con cédula para compararla con la ingresada para ver si existe o no dicho número dentro de nuestra base de datos y un pequeño validar mail con la misma función de recorrido.

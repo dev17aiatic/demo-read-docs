@@ -1,12 +1,15 @@
 MODULO DE INICIO DE SESION
 ===========================
 
+
 En el módulo de inicio se encuentran los archivos que le permiten al usuario loguearse con un correo existente y alojado en la Base de Datos de firebase.
 
 
 El diseño del html para esta parte está diseñada de la siguiente manera:
 
-.. code-block::
+
+
+::
 
     <ng-container *ngIf="user | async; else login">
       Estas logueado con {{user.email}}
@@ -22,13 +25,17 @@ El diseño del html para esta parte está diseñada de la siguiente manera:
     </body>
     </ng-template>
 
+
+
 Como primera instancia se crea un ngIf que nos avisará si el usuario se encuentra loggeado.
 
 Dentro del body, se crea un contenedor con un formulario para poder loguearse, sin embargo este login está hecho para iniciarse a través del e-mail, por esta razón no se requiere de password, ya que una vez dado click al botón.
 
 Los estilos de nuestro inicio de sesión está definido por la siguientes reglas encontradas en inicio.component.scss:
 
-.. code-block::
+
+
+::
 
 	
     // Colors
@@ -178,7 +185,7 @@ Dentro de nuestro scss, definimos la posición dentrada en la cuál se encuentra
 También se definen las reglas para la responsividad, en esta reglas se encuentra la posición del container, su máxima anchura y también una background image.
 
 
-.. code-block::
+::
 
    import { NgModule } from '@angular/core';
    import { CommonModule } from '@angular/common';
@@ -218,7 +225,7 @@ En nuestro inicio.module.ts importaremos & exportaremos todos los componentes, l
 
 
 
-.. code-block::
+::
 
    import { Component, OnInit } from '@angular/core';
    import { FormControl, FormGroup } from '@angular/forms';
@@ -257,6 +264,8 @@ En nuestro inicio.module.ts importaremos & exportaremos todos los componentes, l
     this.authSvc.login(email);
     this.enviado = true;
   }
+
+
 
 La lógica detrás del inicio se encuentra detrás de Inicio.component.ts. En este archivo, nos encontraremos con una inicilización de un formulario de Login el cuál solo recibirá el E-mail. nuestro ngOnInit. de manera asincrona, hacemos una pequeña condicional de que si existe un usuario, se redirige hacia /Home, esto es gracias a la llamada de Router que se hace en el constructor, esto nos permite hacer navegación entre páginas.
 

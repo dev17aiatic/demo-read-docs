@@ -3,7 +3,9 @@ SERVICIO MUNICIPIOS(API)
 
 Este servicio es invocado para auxiliar a los módulos que requieran la utilización del arreglo de Municipios & Departamentos de Colombia.
 
-.. code-block::
+
+
+::
 
    import { Injectable } from '@angular/core';
    import { HttpClient} from '@angular/common/http';

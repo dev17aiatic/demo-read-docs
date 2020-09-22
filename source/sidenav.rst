@@ -3,7 +3,7 @@ SIDENAV COMPONENTE:
 
 El componente de nuestro sidenav está compuesto mayormente por una plantilla creada por los developers desde cero, en la cuál definen una sidenav para mostrar los módulos existentes dependiendo si el usuario está loggeado o desloggeado, así como también contiene los íconos que se muestren en el momento en que entremos en modo responsivo, el cual creará dos iconos de hamburguesa, uno a cada lado, el segundo botón, desplegará un menú que permitirá navegar por secciones extras como Inicio, Equipo y Contacto, este menú también es visible en la mitad de nuestra barra principal en modo web.
 
-.. code-block::
+::
 
 
 
@@ -82,9 +82,12 @@ El componente de nuestro sidenav está compuesto mayormente por una plantilla cr
 
         </mat-sidenav-container>
 
+
+
 Los estilos, colores, posiciones y demás reglas de diseño, se definen en nuestro scss.
 
-.. code-block::
+
+::
 
       .container {
         top: 0;
@@ -294,9 +297,12 @@ Los estilos, colores, posiciones y demás reglas de diseño, se definen en nuest
       }
       }
 
+
+
 Una vez definidas nuestras reglas, vamos al componente o la parte lógica de nuestro sidenav.
 
-.. code-block::
+
+::
 
       export class SidenavMatComponent implements OnInit {
         public user$: Observable<any> = this.authSvc.afAuth.user;
@@ -324,6 +330,8 @@ Una vez definidas nuestras reglas, vamos al componente o la parte lógica de nue
         }
 
       }
+
+
 
 Observamos que tenemos un observable de un usuario que se encuentre dentrod de nuestro sistema de información y poseemos dos métodos, el de Salir() el cuál está ligado al Boton de Salir que se encontrará en nuestro sidenav y aparecerá si el usuario se loggea exitosamente. El método close() funciona para colapsar nuestro sidebar.
 

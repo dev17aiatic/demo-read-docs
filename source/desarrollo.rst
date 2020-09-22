@@ -52,7 +52,7 @@ b.)crear formulario para contacto. En el formulario, validar que sea un correo, 
 En esta pequeña sección, se encuentra un listado con cada uno de los componentes que posee la aplicación.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contenido:
 
    sidenav
