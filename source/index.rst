@@ -39,7 +39,6 @@ Guía
    desarrollo
    manual_de_usuario 
    casos_de_uso
-   home.rst
    license
 
    help

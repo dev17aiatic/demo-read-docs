@@ -5,7 +5,7 @@ Este módulo se crea con el fin de que sea la primera página del aplicativo web
 
 
 Estructura :
----------------
+^^^^^^^^^^^^
 
 .. image :: ../images/inicioDoc01.png
 Esta es la estructura de archivos que se encuentra dentro del módulo de home. Los archivos como Home.Component.ts, home.routing.module y demás archivos que hacen parte de la estructura, no se muestran ya que no se modifican y se mantienen tan cuál se crean desde el Angular CLI
