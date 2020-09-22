@@ -104,7 +104,7 @@ Página de contacto
 .. image :: ../images/registro.JPG
 Página de Registro
 
-        Para iniciar el proceso de registro, podemos acceder desde el menú de navegación, dando clic al ítem Registro, se deben proporcionar los datos en los campos requeridos, se permite máximo un registro por cédula de ciudadanía y correo electrónico. Una vez se haya finalizado de rellenar todos los campos, se habilitará el botón de registrarse, al dar clic sobre  este, se notificara si el registro fue exitoso o si ha ocurrido algún error.
+        Para iniciar el proceso de registro, podemos acceder desde el menú de navegación, dando clic al ítem Registro, se deben proporcionar los datos en los campos requeridos, se permite máximo un registro por cédula de ciudadanía y correo electrónico. Una vez se haya finalizado de rellenar todos los campos, se habilitará el botón de registrarse, al dar clic sobre  este, se notificará si el registro fue exitoso o si ha ocurrido algún error.
 
 
 8. Iniciar sesión
@@ -149,7 +149,7 @@ Página web de perfil
 .. image :: ../images/editarweb.JPG
 página web de editar perfil
 
-        Al dar clic en "CAMBIAR IMAGEN" se abrirá un explorador de archivos, donde permite seleccionar la foto por la que se desea cambiar, (se permiten fotos de máximo 1MB), si el archivo es exitoso el recuadro de la foto tomara un "check" verde (la nueva foto la podras ver en el momento de guardar los cambios), también se permite actualizar otros datos a excepción del correo electrónico, una vez finalizado esto en la parte inferior se habilitará un botón de guardar cambios o estará el botón de descartar cambios (también se pueden descartar los cambios cierran el diálogo dando clic afuera o con la tecla salir) 
+        Al dar clic en "CAMBIAR IMAGEN" se abrirá un explorador de archivos, donde permite seleccionar la foto por la que se desea cambiar, (se permiten fotos de máximo 1MB), si el archivo es exitoso el recuadro de la foto tomara un "check" verde (la nueva foto se podrá ver en el momento de guardar los cambios), también se permite actualizar otros datos a excepción del correo electrónico, una vez finalizado esto en la parte inferior se habilitará un botón de guardar cambios o estará el botón de descartar cambios (también se pueden descartar los cambios cierran el diálogo dando clic afuera o con la tecla salir) 
 
 12. Salir
 ''''''''
