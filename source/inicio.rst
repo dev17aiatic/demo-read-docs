@@ -26,7 +26,7 @@ Como primera instancia se crea un ngIf que nos avisará si el usuario se encuent
 
 Dentro del body, se crea un contenedor con un formulario para poder loguearse, sin embargo este login está hecho para iniciarse a través del e-mail, por esta razón no se requiere de password, ya que una vez dado click al botón.
 
-Los estilos de nuestro inicio de sesion está definido por la siguientes reglas encontradas en inicio.component.scss:
+Los estilos de nuestro inicio de sesión está definido por la siguientes reglas encontradas en inicio.component.scss:
 
 .. code-block::
 
