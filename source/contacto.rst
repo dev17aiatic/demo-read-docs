@@ -5,7 +5,7 @@ MÓDULO DE CONTACTO
 En este módulo creamos el formulario y los métodos necesarios para enviar un correo de contacto entre un usuario interesado en los servicios de Marvel Project y su CEO, a través de un correo electrónico el CEO recibirá toda la información que será proporcionada por el usuario/visitante de la página.
 La estructura del Modulo es la siguiente:
 
-.. image :: ../images/ContactoDoc01.png
+.. image :: ../images/ContactoDoc01.PNG
 
 Dentro de estos archivos, el routing module & contacto.spec.ts no son modificados y son generados automáticamente por el Angular CLI.
 La estructura HMTL del formulario y la página de contacto es la siguiente

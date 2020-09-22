@@ -1,4 +1,4 @@
-MÓDULO DE HOME:
+MÓDULO DE HOME
 ===============
 
 Este módulo se crea con el fin de que sea la primera página del aplicativo web, y también es el módulo al cual se redirecciona cuando la url no coincide con alguna extensión.

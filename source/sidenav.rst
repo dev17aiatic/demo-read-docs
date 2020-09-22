@@ -1,7 +1,8 @@
-SIDENAV COMPONENTE:
+COMPONENTE SIDENAV
 ====================
 
 El componente de nuestro sidenav está compuesto mayormente por una plantilla creada por los developers desde cero, en la cuál definen una sidenav para mostrar los módulos existentes dependiendo si el usuario está loggeado o desloggeado, así como también contiene los íconos que se muestren en el momento en que entremos en modo responsivo, el cual creará dos iconos de hamburguesa, uno a cada lado, el segundo botón, desplegará un menú que permitirá navegar por secciones extras como Inicio, Equipo y Contacto, este menú también es visible en la mitad de nuestra barra principal en modo web.
+
 
 ::
 

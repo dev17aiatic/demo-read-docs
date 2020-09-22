@@ -543,7 +543,9 @@ Los estilos y reglas de diseño se definen dentro del scss, también se establec
 Pasamos a la parte lógica de nuestro modal, el cual es la siguiente. 
 
 
+
 ::
+
         export interface Habilidad{
         nombre:string;
         checked:boolean;
